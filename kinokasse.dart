@@ -7,8 +7,13 @@ int plaetzeProReihe = 12;
 int reihe = (platzNummer - 1) ~/ plaetzeProReihe +1;
 int platz = (platzNummer - 1) % plaetzeProReihe +1;
 
+int preis;
 
-int preis = platz %2 == 0 ? 15 : 12;
+if (platz % 2 == 0) {
+  preis = 15;
+} else {
+  preis = 12;
+}
 
 String ticketInfos = """
 TICKET-INFO
