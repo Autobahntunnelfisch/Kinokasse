@@ -1,6 +1,6 @@
 void main() {
 
-int platzNummer = 28;
+int platzNummer = 50000;
 int plaetzeProReihe = 12;
 
 
